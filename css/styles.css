@@ -1,3 +1,38 @@
-body{ 
-    /* background-color: rgb(157, 157, 222); */
+:root{
+    --primary-text-color:#434455;
+    --primary-title-color: #2E2F42;
+    --primary-background-color: #fff;
+    --second-background-color: #F4F4FD;
+    --accent-color:#4D5AE5;
 }
+body{ 
+    background-color: #fff;
+    color: #434455;
+}
+/* main title color 2E2F42*/
+/* main text color #434455*/
+/* second background color  #F4F4FD*/
+/* accent color (hover/focus)  #4D5AE5*/
+
+/* ------------header styles--------------- */
+.site-nav .link{
+    color: #2E2F42;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+/* --------------main part styles---------- */
+.section-title{
+
+    color: var(--primary-title-color);
+}
+.title {
+    color:var(--primary-title-color);
+}
+/* hero section */
+.hero {
+    background-color: #2E2F42;;
+}
+
+/*------teammembers section------------- */
