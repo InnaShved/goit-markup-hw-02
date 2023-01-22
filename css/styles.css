@@ -1,9 +1,10 @@
 :root{
     --primary-text-color:#434455;
     --primary-title-color: #2E2F42;
-    --primary-background-color: #fff;
-    --second-background-color: #F4F4FD;
+    --primary-white-color: #fff;
+    --second-bg-color: #F4F4FD;
     --accent-color:#4D5AE5;
+    --secondary-accent-color:#404BBF;
 }
 body{ 
     background-color: #fff;
@@ -14,7 +15,7 @@ body{
 /* second background color  #F4F4FD*/
 /* accent color (hover/focus)  #4D5AE5*/
 
-/* ------------header styles--------------- */
+/* ------------header and footer styles--------------- */
 .site-nav .link{
     color: #2E2F42;
 }
@@ -22,6 +23,7 @@ body{
 .site-nav .link:focus{
     color:var(--accent-color);
 }
+
 /* --------------main part styles---------- */
 .section-title{
 
@@ -34,5 +36,30 @@ body{
 .hero {
     background-color: #2E2F42;;
 }
+.button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: 0;
+}
+.button:hover,
+.buton:focus {
+    color: var(--primary-white-color);
+    background-color: var(--secondary-accent-color);
 
+
+}
 /*------teammembers section------------- */
+
+/* PORTFOLIO page */
+
+
+.button.btn-secondary {
+    color: var(--accent-color);
+    background-color: var(--second-bg-color);
+    border: 1px solid #E7E9FC;
+
+}
+
+
