@@ -1,51 +1,98 @@
 :root{
     --primary-text-color:#434455;
-    --primary-title-color: #2E2F42;
-    --primary-white-color: #fff;
+    --secondary-text-color: #2E2F42;
+    --third-text-color: #E7E9FC;
+    
+    --primary-bg-color: #fff;
     --second-bg-color: #F4F4FD;
+    
+
     --accent-color:#4D5AE5;
     --secondary-accent-color:#404BBF;
 }
 body{ 
     background-color: #fff;
-    color: #434455;
+    color: --primary-text-color
+}
+.logo{
+    font-size: 18px;
+    color: var(--secondary-text-color);
+    font-weight: 800;
+
+}
+.logo-part{
+    color: var(--accent-color);
+}
+.hero-title {
+    font-weight: bold;
+    font-size: 56px;
+    color: var(--primary-bg-color);
+ 
+}
+/* h2 */
+.section-title{
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-text-color);
+}
+/* h3 */
+.title{
+    font-size: 20px;
+    color: var(--secondary-text-color);
+}
+
+/* p */
+.text{
+    font-size: 16px;
+    color: var(--secondary-text-color);
 }
 /* main title color 2E2F42*/
 /* main text color #434455*/
 /* second background color  #F4F4FD*/
 /* accent color (hover/focus)  #4D5AE5*/
 
-/* ------------header and footer styles--------------- */
+/* ------------ header and footer styles--------------- */
 .site-nav .link{
-    color: #2E2F42;
+    color: var(--secondary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color:var(--accent-color);
+    color:var(--secondary-accent-color);
 }
+.contacts{
+    font-size: 16px;
+    
 
+}
+.contacts:hover,
+.contacts:focus {
+    font-size: 16px;
+    color: var(--secondary-accent-color);
+
+}
+.footer{
+    background-color: var(--secondary-text-color);
+    color: var(--third-text-color);
+}
+.footer-logo{
+    color: var(--second-bg-color);
+}
 /* --------------main part styles---------- */
-.section-title{
 
-    color: var(--primary-title-color);
-}
-.title {
-    color:var(--primary-title-color);
-}
 /* hero section */
 .hero {
     background-color: #2E2F42;;
 }
 .button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: var(--primary-white-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent-color);
     border-radius: 4px;
     border: 0;
 }
 .button:hover,
 .buton:focus {
-    color: var(--primary-white-color);
+    color: var(--primary-bg-color);
     background-color: var(--secondary-accent-color);
 
 
@@ -58,7 +105,7 @@ body{
 .button.btn-secondary {
     color: var(--accent-color);
     background-color: var(--second-bg-color);
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--third-text-color);
 
 }
 
