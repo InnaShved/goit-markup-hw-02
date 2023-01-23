@@ -78,7 +78,8 @@ body{
 /* second background color  #F4F4FD*/
 /* accent color (hover/focus)  #4D5AE5*/
 
-/* ------------ header and footer styles--------------- */
+
+/* ------------ header and footer styles --------------- */
 .site-nav .link{
     color: var(--secondary-text-color);
     font-weight: 500;
