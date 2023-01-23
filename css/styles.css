@@ -52,6 +52,7 @@ body{
     line-height: 1.11;
     color: var(--secondary-text-color);
     text-transform: capitalize;
+    text-align: center;
 }
 /* h3 */
 .title{
