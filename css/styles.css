@@ -12,33 +12,52 @@
 }
 body{ 
     background-color: #fff;
-    color: --primary-text-color
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
 }
+
 .logo{
-    font-size: 18px;
     color: var(--secondary-text-color);
+    font-family: Raleway, sans-serif;;
+    font-style: normal;
     font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
 
 }
 .logo-part{
     color: var(--accent-color);
 }
 .hero-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 56px;
     color: var(--primary-bg-color);
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
  
 }
 /* h2 */
 .section-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
     color: var(--secondary-text-color);
+    text-transform: capitalize;
 }
 /* h3 */
 .title{
     font-size: 20px;
     color: var(--secondary-text-color);
+    line-height: 1.2;
 }
 
 /* p */
@@ -50,6 +69,9 @@ body{
 .list{
     list-style-type: none;
 }
+.link{
+    text-decoration: none;
+}
 /* main title color 2E2F42*/
 /* main text color #434455*/
 /* second background color  #F4F4FD*/
@@ -58,6 +80,9 @@ body{
 /* ------------ header and footer styles--------------- */
 .site-nav .link{
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -93,6 +118,7 @@ body{
     background-color: var(--accent-color);
     border-radius: 4px;
     border: 0;
+    letter-spacing: 0.04em;
 }
 .button:hover,
 .buton:focus {
