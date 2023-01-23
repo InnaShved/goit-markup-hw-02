@@ -86,6 +86,7 @@ body{
     font-size: 16px;
     
 }
+.auth-nav .contacts:hover,
 .site-nav .link:focus{
     color:var(--secondary-accent-color);
 }
